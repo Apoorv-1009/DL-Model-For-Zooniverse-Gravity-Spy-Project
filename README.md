@@ -1,8 +1,8 @@
 # DL-Model-For-Zooniverse-Gravity-Spy-Project
 In 2015, the Advanced LIGO detectors achieved a remarkable feat by detecting gravitational waves, unlocking insights into cosmic occurrences like black hole collisions. Despite their subtle presence on Earth, these waves yield vital information about black holes. These detectors exhibit sensitivity not only to authentic gravitational signals but also to glitches—brief noise bursts with diverse origins. The project's objective is to pinpoint glitch sources through the analysis of gravitational-wave data, aiding LIGO scientists in mitigating their impact. Our initiative focuses on constructing a robust machine learning model to classify various gravitational wave glitches identified by LIGO as part of the Zooniverse Gravity Spy project. Leveraging a computer vision CNN model, we trained it on an extensive collection of images sourced from the Gravity Spy project, subsequently validating it on numerous test images. Thanks to meticulous labeling, diverse gravitational wave patterns, and comprehensive evaluation metrics, the model boasts high performance and reliability. By scrutinizing intricate signatures across 22 different wave classes, the model achieves precise and accurate classifications. Furthermore, we've made this model accessible for public testing. The successful creation of this classification model holds profound potential in expediting the identification and categorization of gravitational wave signals, thereby enhancing astrophysical research and our understanding of the universe's dynamic gravitational phenomena. <br> <br>
 Requirements:
-numpy==1.24.3
-streamlit==1.26.0
-Pillow==9.5.0
-keras==2.13.1
-tensorflow==2.13.0
+numpy==1.24.3 <br>
+streamlit==1.26.0 <br>
+Pillow==9.5.0 <br>
+keras==2.13.1 <br>
+tensorflow==2.13.0 <br>
